@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css ex 5</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+
+      nav {
+        background-color: rgb(200, 115, 200);
+        height: 50px;
+        position: sticky;
+      }
+      ul li {
+        list-style: none;
+        display: inline;
+        font-size: 34px;
+        padding: 35px;
+      }
+
+      .box {
+        height: 500px;
+        border: 2px solid black;
+        margin-top: 100px;
+        position: relative;
+      }
+
+      .box1 {
+        position: absolute;
+        height: 470px;
+        width: 700px;
+        border: 2px solid red;
+        margin: 12px;
+      }
+      .box2 {
+        position:absolute;
+        display:inline;
+        height: 470px;
+        width: 700px;
+        border: 2px solid red;
+        top: 50%;
+        left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>about</li>
+          <li>contact</li>
+          <li>support</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="box">
+      <div class="box1"></div>
+      <div class="box2"></div>
+    </div>
+  </body>
+</html>
